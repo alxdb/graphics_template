@@ -5,9 +5,9 @@
 namespace oogl {
 struct VertexAttributeFormat {
   GLint size = 4;
+  GLuint relativeoffset = 0;
   GLenum type = GL_FLOAT;
   GLboolean normalized = GL_FALSE;
-  GLuint relativeoffset = 0;
 };
 
 class VertexArray : public Object {

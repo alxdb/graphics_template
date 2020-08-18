@@ -3,7 +3,6 @@
 #include <Display.hpp>
 #include <oogl/oogl.hpp>
 
-#include <spdlog/sinks/stdout_color_sinks.h>
 #include <spdlog/spdlog.h>
 
 namespace fs = std::filesystem;
